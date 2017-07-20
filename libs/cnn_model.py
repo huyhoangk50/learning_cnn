@@ -1,8 +1,8 @@
 """model of cnn"""
-
+from kaffe.tensorflow import Network
 import numpy as np
 
-class CNN(object):
+class CNN(Network):
     
     def __init__(self, arg):
         super(CNN, self).__init__()

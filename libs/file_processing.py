@@ -2,7 +2,7 @@
 '''
 this class allow us to do some method working with file
 '''
-
+import os
 from PIL import Image
 
 class FileProcessing(object):
